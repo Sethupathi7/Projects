@@ -1,0 +1,17 @@
+.txt, .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.txt{z-index: 2;}
+.bg{z-index: 1;}
+.bg{
+   background-image: url("img/desk01 (10).jpg");
+   opacity: 0.6;
+}
+.txt{
+   font-size: 40px; 
+   font-weight: 700;
+}
